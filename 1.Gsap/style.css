@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html,
+body {
+  width: 100%;
+
+  background-color: aqua;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(71, 218, 255);
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 10, 10);
+}
+h1 {
+}
+.rec {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin-top: 10px;
+}
+.rec1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.rec2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.rec3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
