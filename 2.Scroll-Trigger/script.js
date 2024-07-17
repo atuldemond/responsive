@@ -12,10 +12,12 @@ gsap.to(".page2 #box", {
   backgroundColor: "red",
   ease: "power1.easeInOut",
   scrollTrigger: {
-    trigger: ".page2 #box",
-    scrub: true,
-
+    trigger: ".page2",
+    scrub: 5,
+    start: "top 0%",
+    end: "top -150%",
     markers: true,
+    pin: true,
   },
 });
 gsap.to(".page3 #box", {

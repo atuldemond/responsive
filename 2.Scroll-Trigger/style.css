@@ -5,6 +5,7 @@
 }
 html {
   width: 100%;
+  height: auto;
 }
 
 .page1 {
@@ -35,6 +36,9 @@ html {
 #box {
   width: 100px;
   height: 100px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 23, 23);
   border-radius: 50%;
 }
+
+/* now we gona ready for creating new projects
+ */
